@@ -1,5 +1,6 @@
 Requires:
  - Azure Powershell (Az) version 3.x.x
+ - Logged in to Azure with permissions to get secrets from Key Vault
 
 The binaries wfreerdp.exe and xfreerdp are in the bin/ directory.  Either leave as default or update the script to point to an alternative version.
 
