@@ -1,0 +1,10 @@
+#!/bin/bash
+CLIPCMD=$(which xclip)
+if [ -e $CLIPCMD ]; then
+	$CLIPCMD -i -sel c -f |$CLIPCMD -i -sel p
+	exit 0
+else
+	echo "xclip not found or not installed"
+	exit 1
+fi
+
